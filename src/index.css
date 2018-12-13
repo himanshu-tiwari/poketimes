@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.post {
+	overflow: hidden;
+	padding-left: 7rem;
+}
+.pokeball {
+	position: absolute;
+	bottom: -3rem;
+	left: -5rem;
+	padding-right: 1rem;
+	max-height: 11rem;
+	opacity: 0.6;
+}
