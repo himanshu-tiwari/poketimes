@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 
 class Home extends Component {
 	render() {
-		console.log(this.props);
 		const { posts } = this.props;
 		const postList = posts.length > 0 ? (
 			posts.map(post => {
@@ -17,7 +16,7 @@ class Home extends Component {
 							</Link>
 
 							<p>{post.body}</p>
-							<img src={pokeball} className="pokeball" />
+							<img src={pokeball} className="pokeball" alt="pokeball" />
 						</div>
 					</div>
 				);
