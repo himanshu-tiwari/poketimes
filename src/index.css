@@ -13,11 +13,11 @@ code {
     monospace;
 }
 
-.post {
+.home .post {
 	overflow: hidden;
 	padding-left: 7rem;
 }
-.pokeball {
+.home .pokeball {
 	position: absolute;
 	bottom: -3rem;
 	left: -5rem;
